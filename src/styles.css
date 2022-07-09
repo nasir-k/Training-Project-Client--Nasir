@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #e5e2e2;
+}
+
+.isc-button {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  width: 108px;
+  height: 36px;
+  color: #fff;
+  background-color: #00aff0;
+  border-radius: 6px;
+  border: none;
+}
+
+.isc-logo {
+  width: 230px;
+  height: 50px;
+}

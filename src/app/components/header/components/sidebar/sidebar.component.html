@@ -1,0 +1,14 @@
+<img
+  src="../../../../../assets/images/nav-icon.png"
+  *ngIf="!isSideBarOpen; else sideBar"
+  (click)="toggleSideBar()"
+/>
+
+<ng-template #sideBar>
+  <img
+    src="../../../../../assets/images/isc-cross-icon.png"
+    alt=""
+    (click)="toggleSideBar()"
+  />
+  <app-navbar [isSideBar]="true"></app-navbar>
+</ng-template>
