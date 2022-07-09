@@ -1,0 +1,11 @@
+<header>
+  <img
+    class="isc-logo"
+    src="../../../assets/images/iSchoolConnect-logo.svg"
+    alt="isc-logo"
+  />
+  <app-navbar *ngIf="!isMobileScreen; else mobileScreen"></app-navbar>
+  <ng-template #mobileScreen>
+    <app-sidebar></app-sidebar>
+  </ng-template>
+</header>
